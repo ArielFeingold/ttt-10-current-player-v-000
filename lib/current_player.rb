@@ -3,5 +3,5 @@ def turn_count(board)
   board.each do |play|
     if play != " " || play != ""
       counter += 1
-    # end
+    end
 end
