@@ -12,7 +12,7 @@ def current_player(board)
   character = "X"
   if turn_count(board) == 1
       character == "X"
-  elsif turn_count(board) % 2 == 1
+  elsif turn_count(board) % 2 == 0
     character = "O"
   else character = "X"
   end
