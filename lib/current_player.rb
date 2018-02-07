@@ -10,9 +10,9 @@ end
 
 def current_player(board)
   character = "X"
-  if turn_count(board) == 0
-      character == "X"
-  elsif turn_count(board) % 2 == 1
+  # if turn_count(board) == 0
+  #     character == "X"
+  if turn_count(board) % 2 == 1
     character = "O"
   else character = "X"
   end
